@@ -3,8 +3,8 @@
 更新日期：2026-10-23
 
 - [在线题案](https://kelen1421.github.io/actor-studio-proposal/)
-- [进入 A/B 网页演示](https://actor-studio-ab-web-oct23.kepaniizzard400.chatgpt.site/)
-- [B 端演示登录页](https://actor-studio-ab-web-oct23.kepaniizzard400.chatgpt.site/b/auth.html)
+- [进入 A/B 网页演示](https://kelen1421.github.io/actor-studio-proposal/web/)
+- [B 端演示登录页](https://kelen1421.github.io/actor-studio-proposal/web/b/auth.html)
 - [下载完整网页源码包](ActorStudio_AB_Web_2026-10-23.zip)
 
 ## 本次更新
@@ -19,16 +19,25 @@ A 端 13 个模块和 B 端 9 个模块各有专属三步操作指引；可折�
 
 ## 使用
 
-演示账号 a 为明星，b 为团队管理员，c 为团队成员，初始密码均为 **666666**。B 端登录页直接显示这三组演示凭据。网站当前保留仅所有者可访问的权限，首次需用创建网站的 ChatGPT 账号进入。
+演示账号 a 为明星，b 为团队管理员，c 为团队成员，初始密码均为 **666666**。B 端登录页直接显示这三组演示凭据。GitHub Pages 网页版可直接访问，进入后使用演示账号登录。
 
 业务演示记录仅存当前浏览器。A/B 端需要在同一浏览器中体验，不跨设备同步。请只使用虚构资料。
 
-`index.html` 为样式、脚本及图片内嵌的独立题案网页，可直接打开或由 GitHub Pages 展示。源码 ZIP 解压后包含 `dist/`、说明与行为校验；静态服务需将 `dist/` 作为根目录。首选字体为微软雅黑，未安装时使用系统回退字体；未分发字体文件。
+`index.html` 为样式、脚本及图片内嵌的独立题案网页，可直接打开或由 GitHub Pages 展示。A/B 网页文件已展开存放在 [`web/`](web/)；源码 ZIP 解压后同样包含 `web/` 和行为校验。可在仓库根目录启动静态服务，再访问 `/web/`。首选字体为微软雅黑，未安装时使用系统回退字体；未分发字体文件。
 
 ## 验证与范围
 
 已在浏览器验证目标新建和编辑、完成状态保留、复盘转行动、简报搜索及来源保存、简报转行动、22 个模块指引；新增模块检查了手机、平板与桌面尺寸。原有审批、版本校验和留痕行为校验通过。
 
-源代码对应 Sites 提交 `ee9e69d6752f9202e3dee750f7533a047044de8c`。文件校验值见 `CHECKSUMS.txt`。
+网页功能源自 Sites 提交 `ee9e69d6752f9202e3dee750f7533a047044de8c`，本次补齐 GitHub Pages 子目录路径兼容；原 Sites 版本继续保留。文件校验值见 `CHECKSUMS.txt`。
 
 仓库不包含真实业务数据库、个人日程、上传留痕或部署凭据。正式身份验证、异地协作、AI 智能体、设备密钥和端到端加密中继仍需接入、开发与验收。“云端不留存”是拟建业务中继的目标，公开题案与静态源码由 GitHub 托管。
+
+## 网页源文件
+
+- [统一登录入口](web/index.html)
+- [A 端工作台](web/a/workspace.html)
+- [B 端登录](web/b/auth.html)
+- [B 端工作台](web/b/index.html)
+
+本地预览：在仓库根目录运行 `python3 -m http.server 8899`，打开 `http://127.0.0.1:8899/web/`。行为校验：`node checks/check-demo.cjs`。
