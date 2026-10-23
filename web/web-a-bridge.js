@@ -1,0 +1,1 @@
+(()=>{const S=window.ActorStore;S.projects=async()=>{const personal=await S.setting('projects',[]);let shared=[];try{shared=ActorTeam.converted(await ActorTeam.read())}catch{}return [...personal,...shared]};})();
