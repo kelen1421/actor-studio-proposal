@@ -1,0 +1,96 @@
+{
+  "platform": "weibo",
+  "source": "simulation",
+  "mode": "merge",
+  "post": {
+    "id": "simulation-post-001",
+    "title": "原创片段｜幕后分享（模拟）",
+    "account": "示例演员工作室（模拟）"
+  },
+  "comments": [
+    {
+      "externalId": "simulation-comment-001",
+      "author": "模拟读者 01",
+      "text": "这场戏最后的停顿很有力量，希望能聊聊准备的过程。",
+      "likes": 3280,
+      "category": "作品反馈"
+    },
+    {
+      "externalId": "simulation-comment-002",
+      "author": "模拟读者 02",
+      "text": "新角色很有层次，期待接下来的故事。",
+      "likes": 2476,
+      "category": "支持与感谢"
+    },
+    {
+      "externalId": "simulation-comment-003",
+      "author": "模拟读者 03",
+      "text": "可以分享这次角色的妆容色号吗？",
+      "likes": 1985,
+      "category": "常见咨询"
+    },
+    {
+      "externalId": "simulation-comment-004",
+      "author": "模拟读者 04",
+      "text": "幕后舞蹈训练的片段好有感染力。",
+      "likes": 1580,
+      "category": "作品反馈"
+    },
+    {
+      "externalId": "simulation-comment-005",
+      "author": "模拟读者 05",
+      "text": "希望下次能有一次角色分享直播。",
+      "likes": 1260,
+      "category": "内容建议"
+    },
+    {
+      "externalId": "simulation-comment-006",
+      "author": "模拟读者 06",
+      "text": "活动时间以工作室发的消息为准吗？",
+      "likes": 890,
+      "category": "常见咨询"
+    },
+    {
+      "externalId": "simulation-comment-007",
+      "author": "模拟读者 07",
+      "text": "想看一集台词练习日常。",
+      "likes": 725,
+      "category": "内容建议"
+    },
+    {
+      "externalId": "simulation-comment-008",
+      "author": "模拟读者 08",
+      "text": "谢谢你认真回复这些具体的问题。",
+      "likes": 612,
+      "category": "支持与感谢"
+    },
+    {
+      "externalId": "simulation-comment-009",
+      "author": "模拟读者 09",
+      "text": "官宣图和视频中的造型细节很有意思。",
+      "likes": 548,
+      "category": "作品反馈"
+    },
+    {
+      "externalId": "simulation-comment-010",
+      "author": "模拟读者 10",
+      "text": "宣传安排能提前一天提醒就更好了。",
+      "likes": 436,
+      "category": "运营建议"
+    },
+    {
+      "externalId": "simulation-comment-011",
+      "author": "模拟读者 11",
+      "text": "对采访里的这句话有不同理解，想听完整语境。",
+      "likes": 318,
+      "category": "需人工确认"
+    },
+    {
+      "externalId": "simulation-comment-012",
+      "author": "模拟读者 12",
+      "text": "拍摄辛苦了，期待下一部作品。",
+      "likes": 206,
+      "category": "支持与感谢"
+    }
+  ]
+}
